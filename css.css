@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navigation a{ text-decoration:none ;
+    padding-right: 2rem;
+    color: black;}
+#navigation .logo{
+    float: left;
+    margin: 10px;
+    position: fixed;
+}
+#navigation .navbar{
+   margin: 20px;
+ font-size: 18px;
+
+    float: right;
+  
+}
+#navigation a:hover{
+    color: orange;
+}
+
+ #Slider{
+    
+        background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      padding: 19rem;
+    
+    text-align: center;
+   margin: auto;
+   padding: 16rem ;  
+ }
+ #Slider h1{
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ }
+ #Slider p{
+    margin-top: 1rem;
+    font-size: 18.4px;
+    color: white;
+    padding-bottom:4rem;
+  }
+    #Slider hr{
+       width: 10%;
+   background-color: #f4623a;
+   border:none;
+   height: 2px;   
+   margin: 2rem auto;
+    }
+    #Slider a
+    {
+     
+      color: white;
+      
+      padding: 1.25rem 2.25rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+     }
+     #Slider .link{
+      background-color: #f4623a;
+    
+      text-decoration: none;
+   border-radius: 30px;;
+
+
+     }
+     #about{
+      background-color: #f4623a;
+      text-align: center;
+      margin: auto;
+      padding: 6rem ;  
+     }
+     #about h1{
+      color: white;
+     
+      font-size: 56px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 1rem;
+     }
+     #about p{
+      margin-top: 1rem;
+      font-size: 18.4px;
+      color: white;
+      padding-bottom:4rem;
+    }
+      #about hr{
+         width: 10%;
+     background-color: #ffffff;
+     border:none;
+     height: 2px;   
+     margin: 2rem auto;
+      }
+      #about a
+      {
+       
+        color: #f4623a;
+        
+        padding: 1.25rem 2.25rem;
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+       }
+       #about .link2{
+        background-color: #ffffff;
+      
+        text-decoration: none;
+        border-radius: 30px;}
+  #allphoto .box img{
+    vertical-align: bottom;
+    width: 100%;
+    
+  }
+  #allphoto .box{
+    width: calc(100%/3);
+    float: left; 
+    filter: blur(6px) grayscale(1);
+    transition: 0.1s;
+   
+    
+  }
+  #allphoto .box:hover{
+    filter: blur(0) grayscale(0);
+   
+  }
+
+ #portfolio{
+  background-color: #212529;
+  text-align: center;
+  margin: auto;
+  padding: 16rem ;  
+  height: 60rem;
+  
+ }
+ #portfolio h1{
+ padding-top: 30rem;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin-bottom:4rem;
+  
+}
+#portfolio a
+{
+ 
+  color: white;
+  
+  padding: 1rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+ }
+ #portfolio .link3{
+  background-color: #f4623a;
+
+  text-decoration: none;
+border-radius: 30px;;
+
+
+ }
